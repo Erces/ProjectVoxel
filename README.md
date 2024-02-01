@@ -1,6 +1,6 @@
 # ProjectVoxel
 
-- I am developing this project for like a 1 month, every aspect of the game created by myself "Erce Uslu". **Some files and models are removed from repository due to future commercial problems**.
+- I am developing this project for like a 1 month and continiously developing, every aspect of the game created by myself "Erce Uslu". **Some files and models are removed from repository due to future commercial problems**.
 
 - INTRO:
   
