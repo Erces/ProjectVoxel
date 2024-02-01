@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6480c3a11ef13143b71f9c64c7da64c, type: 3}
+  m_Name: New MM Sequence
+  m_EditorClassIdentifier: 
+  Length: 1
+  OriginalSequence:
+    Line: []
+  EndSilenceDuration: 0.125
+  SequenceTracks:
+  - ID: 0
+    TrackColor: {r: 0.2509804, g: 0.8784314, b: 0.8156863, a: 1}
+    Key: 32
+    Active: 1
+    State: 0
+    Initialized: 1
+  - ID: 1
+    TrackColor: {r: 0.76862746, g: 0.4392157, b: 1, a: 1}
+    Key: 32
+    Active: 1
+    State: 0
+    Initialized: 1
+  - ID: 2
+    TrackColor: {r: 0.9607843, g: 0.9607843, b: 0.8627451, a: 1}
+    Key: 32
+    Active: 1
+    State: 0
+    Initialized: 1
+  Quantized: 1
+  TargetBPM: 480
+  QuantizedSequence:
+  - Line:
+    - Timestamp: 0
+      ID: -1
+    - Timestamp: 0.125
+      ID: 0
+    - Timestamp: 0.25
+      ID: -1
+    - Timestamp: 0.375
+      ID: -1
+    - Timestamp: 0.5
+      ID: -1
+    - Timestamp: 0.625
+      ID: -1
+    - Timestamp: 0.75
+      ID: -1
+    - Timestamp: 0.875
+      ID: -1
+  - Line:
+    - Timestamp: 0
+      ID: -1
+    - Timestamp: 0.125
+      ID: -1
+    - Timestamp: 0.25
+      ID: 1
+    - Timestamp: 0.375
+      ID: -1
+    - Timestamp: 0.5
+      ID: -1
+    - Timestamp: 0.625
+      ID: -1
+    - Timestamp: 0.75
+      ID: -1
+    - Timestamp: 0.875
+      ID: -1
+  - Line:
+    - Timestamp: 0
+      ID: -1
+    - Timestamp: 0.125
+      ID: -1
+    - Timestamp: 0.25
+      ID: -1
+    - Timestamp: 0.375
+      ID: -1
+    - Timestamp: 0.5
+      ID: 2
+    - Timestamp: 0.625
+      ID: -1
+    - Timestamp: 0.75
+      ID: -1
+    - Timestamp: 0.875
+      ID: -1
+  RandomizeTrackColorsButton: 0

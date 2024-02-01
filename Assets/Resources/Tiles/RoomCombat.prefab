@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1531774724433400352
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 682218484018189390}
+  - component: {fileID: 2729437966580643984}
+  - component: {fileID: 6385589363970850911}
+  m_Layer: 0
+  m_Name: RoomCombat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &682218484018189390
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531774724433400352}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.85744, y: 1.0562739, z: -3.623497}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2729437966580643984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531774724433400352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43ef8b4113253a24cb55d7ccafc90308, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomType: 1
+  starterTile: {fileID: 0}
+  portal: {fileID: 0}
+  maxTileCount: 7
+  tileCount: 0
+  tiles:
+  - {fileID: -3287779012927600901, guid: 6dc3612d760419a45a71156da11a2273, type: 3}
+  - {fileID: -3287779012927600901, guid: 97d5294b70b67ac41a2bc5b0f6caaa48, type: 3}
+  - {fileID: -3287779012927600901, guid: 523b0f40331610545b9d09271981330c, type: 3}
+  - {fileID: -3287779012927600901, guid: 6e02551bce56ab545ad3542055caa6da, type: 3}
+  - {fileID: -3287779012927600901, guid: 14e4fa7963544af4ca9a5093d9bbe762, type: 3}
+  - {fileID: -3287779012927600901, guid: 362a84198f6475345a945b869159fe1f, type: 3}
+  - {fileID: -3287779012927600901, guid: a763a32fe47f29e4c9793a49dbcd89ab, type: 3}
+  - {fileID: -3287779012927600901, guid: a75b53566deafda4bb007317e425c260, type: 3}
+  - {fileID: -3287779012927600901, guid: 3826c5c4316d3614e8779025a3a60dcf, type: 3}
+  - {fileID: -3287779012927600901, guid: 8dc71866c7e91b34db70d0648dffe013, type: 3}
+  - {fileID: -3287779012927600901, guid: 8dc71866c7e91b34db70d0648dffe013, type: 3}
+  - {fileID: -3287779012927600901, guid: 8dc71866c7e91b34db70d0648dffe013, type: 3}
+  - {fileID: -3287779012927600901, guid: 8dc71866c7e91b34db70d0648dffe013, type: 3}
+  - {fileID: -3287779012927600901, guid: 8dc71866c7e91b34db70d0648dffe013, type: 3}
+  - {fileID: -3287779012927600901, guid: 8dc71866c7e91b34db70d0648dffe013, type: 3}
+  - {fileID: -3287779012927600901, guid: 8dc71866c7e91b34db70d0648dffe013, type: 3}
+  - {fileID: -3287779012927600901, guid: 8dc71866c7e91b34db70d0648dffe013, type: 3}
+  - {fileID: -3287779012927600901, guid: 8dc71866c7e91b34db70d0648dffe013, type: 3}
+  - {fileID: -3287779012927600901, guid: 8dc71866c7e91b34db70d0648dffe013, type: 3}
+  - {fileID: -3287779012927600901, guid: 8dc71866c7e91b34db70d0648dffe013, type: 3}
+  - {fileID: -3287779012927600901, guid: 8dc71866c7e91b34db70d0648dffe013, type: 3}
+  - {fileID: -3287779012927600901, guid: 8dc71866c7e91b34db70d0648dffe013, type: 3}
+  - {fileID: -3287779012927600901, guid: 8dc71866c7e91b34db70d0648dffe013, type: 3}
+  - {fileID: -3287779012927600901, guid: 8dc71866c7e91b34db70d0648dffe013, type: 3}
+  spawnedSurfaces: []
+  spawnedTiles: []
+  centerPoint: {fileID: 0}
+  playerSpawnPoint: {fileID: 0}
+  roomSpawnPoint: []
+  enemySpawnPoints: []
+  enemyCount: 0
+  chestSpawnPos: {fileID: 0}
+--- !u!114 &6385589363970850911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531774724433400352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
