@@ -1,5 +1,6 @@
 # ProjectVoxel
 
+- I am developing this project for like a 1 month, every aspect of the game created by myself "Erce Uslu". **Some files and models are removed from repository due to future commercial problems**.
 -Project Voxel is Co-op 4 player dungeon crawler with Roguelite elements.
 
 **🏹Dwarf Character Using Bow🏹:**
