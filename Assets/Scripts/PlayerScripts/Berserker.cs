@@ -37,24 +37,11 @@ public class Berserker : Player
     public void CameraFacing()
     {
 
-        //Create a ray from the Mouse position into the scene
         var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-
-        // Use this ray to Raycast against the mathematical floor plane
-        // "enter" will be a float holding the distance from the camera 
-        // to the point where the ray hit the plane
         if (plane.Raycast(ray, out var enter))
         {
-            //Get the 3D world point where the ray hit the plane
             var hitPoint = ray.GetPoint(enter);
-
-            // project the player position onto the plane so you get the position
-            // only in XZ and can directly compare it to the mouse ray hit
-            // without any difference in the Y axis
             var playerPositionOnPlane = plane.ClosestPointOnPlane(this.transform.position);
-
-            // now there are multiple options but you could simply rotate the player so it faces 
-            // the same direction as the one from the playerPositionOnPlane -> hitPoint 
             this.transform.rotation = Quaternion.LookRotation(hitPoint - playerPositionOnPlane);
         }
     }

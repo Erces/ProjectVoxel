@@ -11,14 +11,5 @@ public class EUWeapon : ScriptableObject
     public enum TYPE { STR,DEX,INT}
     public TYPE weaponType;
     public float baseDamage;
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   
 }
