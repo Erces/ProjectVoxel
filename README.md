@@ -20,7 +20,3 @@
 
 <img src="https://github.com/Erces/ProjectVoxel/assets/51009171/3fbe4a96-9435-41a5-885a-e14e5a0220ce" width="450" height="250"/>
 
-
-![TowerDefenseWithRandomTileGeneration - SampleScene - Windows, Mac, Linux - Unity 2021 3 10f1 Personal _DX11_ 2024-02-06 06-58-01](https://github.com/Erces/TowerDefenseWithRandomTileGeneration/assets/51009171/9342735e-68b3-46b6-9bc2-384c6678be95)
-
-<img src="https://github.com/Erces/TowerDefenseWithRandomTileGeneration/assets/51009171/9342735e-68b3-46b6-9bc2-384c6678be95" width="450" height="250"/>
