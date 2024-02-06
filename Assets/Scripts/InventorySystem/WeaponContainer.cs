@@ -11,8 +11,6 @@ public class WeaponContainer : MonoBehaviour
     public TMP_Text weaponType;
     public TMP_Text weaponDamage;
     
-
-
     public void ManageVariables(WeaponItem weapon){
         if(ContainerType == Container.GROUND){
             Debug.Log("GROUND");

@@ -7,14 +7,8 @@ public class Inventory : MonoBehaviour
     
     //Singleton
     public static Inventory i;
-    
-    
-
     // 5 Slot inventory
     public List<Item> inventory = new List<Item>(5);
-
-
-
     private void Start()
     {
         i = this;
